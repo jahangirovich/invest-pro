@@ -1,0 +1,35 @@
+@function get-vw-1920($font){
+  $vw-context: 1920 * 0.01 * 1px;
+  @return $font / $vw-context * 1vw;
+  @return $font;
+}
+@function get-vw-1440($font){
+    $vw-context: 1440 * 0.01 * 1px;
+    @return $font / $vw-context * 1vw;
+    @return $font;
+}
+@function get-vw-1320($font){
+    $vw-context: 1320 * 0.01 * 1px;
+    @return $font / $vw-context * 1vw;
+    @return $font;
+}
+@function get-vw-1024($font){
+    $vw-context: 1024 * 0.01 * 1px;
+    @return $font / $vw-context * 1vw;
+    @return $font;
+}
+@function get-vw-768($font){
+    $vw-context: 768 * 0.01 * 1px;
+    @return $font / $vw-context * 1vw;
+    @return $font;
+}
+@function get-vw-480($font){
+    $vw-context: 480 * 0.01 * 1px;
+    @return $font / $vw-context * 1vw;
+    @return $font;
+}
+@function get-vw-360($font){
+    $vw-context: 360 * 0.01 * 1px;
+    @return $font / $vw-context * 1vw;
+    @return $font;
+}
